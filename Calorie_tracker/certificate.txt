@@ -1,0 +1,10 @@
+keytool -list -v -keystore /Users/st185188/Desktop/Health_Inspector/app/release.jks -alias key0
+Certificate fingerprints:
+	 MD5:  AA:84:44:B2:0B:01:B1:2D:A2:60:E1:53:0B:2D:43:C9
+	 SHA1: 3F:B9:37:EC:F1:00:1D:CF:8F:7A:A1:72:8F:A9:27:99:51:68:CA:9F
+	 SHA256: 98:69:6A:7E:F1:00:94:5E:E7:6F:95:73:10:8C:97:07:DD:68:1F:28:5B:04:78:E1:A8:4E:F8:AF:62:02:91:20
+
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+
+Add any of above signature in firebase console

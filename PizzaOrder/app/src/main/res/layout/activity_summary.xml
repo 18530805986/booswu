@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingTop="16dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="16dp"
+    tools:context=".SummaryActivity">
+
+    <Button
+        android:id="@+id/btnAdd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblOrderSummary"
+        android:gravity="center_horizontal"
+        android:onClick="add"
+        android:text="Order" />
+
+    <TextView
+        android:id="@+id/lblOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Order Summary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblOrderSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblOrder"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Order Summary"
+        android:textSize="20sp" />
+
+</RelativeLayout>

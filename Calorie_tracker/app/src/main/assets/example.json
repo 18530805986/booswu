@@ -1,0 +1,71 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 38.82955630000001,
+               "lng" : -94.7967932
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 38.83090688029151,
+                  "lng" : -94.79529716970848
+               },
+               "southwest" : {
+                  "lat" : 38.82820891970851,
+                  "lng" : -94.7979951302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4e8cd4a71abf4871d96562b7feac246d6da826b7",
+         "name" : "Sue L. Jacobs, PhD",
+         "place_id" : "ChIJW75a9pa-wIcRSgG8J5JGw9M",
+         "plus_code" : {
+            "compound_code" : "R6H3+R7 Olathe, KS, United States",
+            "global_code" : "86C7R6H3+R7"
+         },
+         "reference" : "ChIJW75a9pa-wIcRSgG8J5JGw9M",
+         "scope" : "GOOGLE",
+         "types" : [ "doctor", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "16456 South Fellows Street, Olathe"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 38.8334431,
+               "lng" : -94.7779977
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 38.8347765302915,
+                  "lng" : -94.7764958197085
+               },
+               "southwest" : {
+                  "lat" : 38.8320785697085,
+                  "lng" : -94.77919378029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b2a0e391c685c9d851988581ce9ebe1cc47d5966",
+         "name" : "Surgery b",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJ9aqrK4m_wIcRkDtaTGm_Rvs",
+         "plus_code" : {
+            "compound_code" : "R6MC+9R Olathe, KS, United States",
+            "global_code" : "86C7R6MC+9R"
+         },
+         "reference" : "ChIJ9aqrK4m_wIcRkDtaTGm_Rvs",
+         "scope" : "GOOGLE",
+         "types" : [ "doctor", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "16260 South Brookfield Street, Olathe"
+      }
+   ],
+   "status" : "OK"
+}

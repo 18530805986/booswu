@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719129757275",
+    "firebase_url": "https://fir-52251.firebaseio.com",
+    "project_id": "fir-52251",
+    "storage_bucket": "fir-52251.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719129757275:android:9d8581cf240b2f9c07217e",
+        "android_client_info": {
+          "package_name": "com.sawapps.baymaxhealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719129757275-ocjb8qghbsiiqf4apj2invbok8vlk91l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sawapps.baymaxhealthcare",
+            "certificate_hash": "3fb937ecf1001dcf8f7aa1728fa927995168ca9f"
+          }
+        },
+        {
+          "client_id": "719129757275-gakp7fl709u1etcc9bvggonsr48cv4gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO3Zyo5p7PEOyQIb8BlL_vsaaiHvp0KcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719129757275-gakp7fl709u1etcc9bvggonsr48cv4gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

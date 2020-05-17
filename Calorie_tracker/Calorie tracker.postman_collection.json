@@ -1,0 +1,118 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Health Inspector",
+		"_postman_id": "bcdcd2cc-506b-0dc7-70b4-41afd52d4127",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "better doctor search",
+			"request": {
+				"url": {
+					"raw": "https://api.betterdoctor.com/2016-03-01/doctors?location=37.773%2C-122.413%2C100&user_location=37.773%2C-122.413&skip=0&limit=10&user_key=76a2878a9e8d28dcd556ba0c53461174",
+					"protocol": "https",
+					"host": [
+						"api",
+						"betterdoctor",
+						"com"
+					],
+					"path": [
+						"2016-03-01",
+						"doctors"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "37.773%2C-122.413%2C100",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "user_location",
+							"value": "37.773%2C-122.413",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "skip",
+							"value": "0",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "limit",
+							"value": "10",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "user_key",
+							"value": "76a2878a9e8d28dcd556ba0c53461174 ",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "meal plan search given calories",
+			"request": {
+				"url": {
+					"raw": "https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/mealplans/generate?timeFrame=day&targetCalories=2000",
+					"protocol": "https",
+					"host": [
+						"spoonacular-recipe-food-nutrition-v1",
+						"p",
+						"mashape",
+						"com"
+					],
+					"path": [
+						"recipes",
+						"mealplans",
+						"generate"
+					],
+					"query": [
+						{
+							"key": "timeFrame",
+							"value": "day",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "targetCalories",
+							"value": "2000",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Mashape-Key",
+						"value": "1Dnz7LuzBVmshia88a9IKqmf7n82p1v8KSGjsnP7R2gBashGJA",
+						"description": ""
+					},
+					{
+						"key": "X-Mashape-Host",
+						"value": "spoonacular-recipe-food-nutrition-v1.p.mashape.com",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
